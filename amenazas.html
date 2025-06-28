@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <title>Amenazas Comunes</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">CiberSegura</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="amenazas.html">Amenazas Comunes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="consejos.html">Consejos de Ciberseguridad</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="container-amenazas">
+        <h1 class="titulo-amenazas display-5 text-center">Amenazas comunes</h1>
+
+        <div class="row g-4">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Phishing</h5>
+                        <p class="card-text">
+                            Consiste en el envío de correos falsos simulando ser una entidad legítima para robar datos
+                            personales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ransomware</h5>
+                        <p class="card-text">
+                            Tipo de malware que bloquea el acceso a datos y exige un pago para liberarlos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Malware</h5>
+                        <p class="card-text">
+                            Software malicioso diseñado para infiltrarse y dañar sistemas informáticos sin
+                            consentimiento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ataque DDoS</h5>
+                        <p class="card-text">
+                            Sobrecarga un servidor mediante múltiples solicitudes falsas para que deje de funcionar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Carrusel con testimonios-->
+    <div class="container my-5">
+    <div id="carouselExample" class="carousel slide position-relative">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/phising.png" class="d-block mx-auto mb-3" alt="Foto correo con candado" style="width: 180px;">
+      <p class="lead text-center">En 2022, miles de usuarios recibieron correos falsos de un supuesto banco. Al hacer clic, entregaron sus datos personales a ciberdelincuentes.</p>
+  <small class="d-block text-center">– Caso real de phishing</small>
+    </div>
+    <div class="carousel-item">
+      <img src="img/ransomware.png" class="d-block mx-auto mb-3" alt="Foto computador con candado" style="width: 180px;">
+      <p class="lead text-center">En 2021, una empresa energética de EE.UU. fue víctima de un ransomware que bloqueó sus sistemas durante días. El rescate superó los $4 millones de dólares.</p>
+  <small class="d-block text-center">– Caso real de ransomware</small>
+    </div>
+    <div class="carousel-item">
+      <img src="img/ddos.png" class="d-block mx-auto mb-3" alt="Foto ejemplo ataque DDOS" style="width: 180px;">
+      <p class="lead text-center">En 2023, un popular sitio de streaming fue víctima de un ataque DDoS que lo dejó fuera de servicio por más de 6 horas.</p>
+  <small class="d-block text-center">– Caso real de DDoS</small>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">Hecho con ❤️ por Massiel Díaz - 2025</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
