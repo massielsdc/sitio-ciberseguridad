@@ -1,0 +1,37 @@
+/*Inicio*/
+
+/*Navbar*/
+.navbar-nav {
+    margin-left: auto;
+    gap: 1rem;
+    /* espacio entre enlaces */
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+}
+
+
+.header {
+    background-color: #dceeff;
+}
+
+.header-image {
+    max-height: 200px;
+    width: auto;
+}
+
+.container h2 {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.container p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #333;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/*Amenazas.html*/
