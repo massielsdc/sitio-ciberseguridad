@@ -1,0 +1,53 @@
+Sitio Web Informativo: CiberSegura
+
+Este proyecto consiste en un sitio web educativo sobre ciberseguridad, desarrollado como parte de una evaluación del módulo. El objetivo es entregar contenido relevante sobre amenazas digitales y prácticas para mantenerse seguro en línea, a través de una interfaz moderna, responsiva e interactiva.
+
+Contenido del sitio
+
+El sitio está compuesto por tres páginas principales:
+
+1. Inicio (index.html)
+
+* Introducción al concepto de ciberseguridad.
+* Imagen destacada con mensaje principal.
+* Barra de navegación con enlaces a las demás secciones.
+
+2. Amenazas Comunes (amenazas.html)
+
+* Descripción de amenazas frecuentes como phishing, ransomware, malware y ataques DDoS.
+* Cards informativas con resumen de cada amenaza.
+* Carrusel con casos reales como ejemplos.
+
+3. Consejos de Seguridad (consejos.html)
+
+* Lista de buenas prácticas para protegerse en línea.
+* Formulario de contacto con validación de campos (hecha con jQuery).
+* Modal interactivo con un test de seguridad, implementado con Bootstrap y jQuery.
+
+Tecnologías utilizadas
+
+-HTML5 para la estructura del contenido
+-CSS3 para los estilos personalizados
+-Bootstrap 5 para el diseño responsivo y componentes visuales
+-JavaScript y jQuery para la interactividad (validaciones, DOM dinámico, test de seguridad)
+-Git y GitHub para el control de versiones y trabajo colaborativo
+
+Funcionalidades interactivas
+
+-Validación del formulario de contacto hecha con jQuery
+-Modal con test de seguridad y retroalimentación según las respuestas
+-Generación dinámica de preguntas y respuestas usando jQuery
+
+Gestión del proyecto
+
+-El repositorio fue inicializado con git init
+-Se realizaron múltiples commits con mensajes descriptivos
+-Se configuró un archivo .gitignore para excluir archivos innecesarios
+-El código está alojado en GitHub en el siguiente repositorio:
+https://github.com/massielsdc/sitio-ciberseguridad
+
+Autor
+
+Massiel Díaz
+2025
+

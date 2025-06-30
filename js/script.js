@@ -1,19 +1,22 @@
-// Validación del formulario
-document.getElementById("btnEnviar").addEventListener("click", function (event) {
-    event.preventDefault(); // Evita el envío por defecto
+// Validación del formulario con jQuery
+$("#btnEnviar").click(function (e) {
+    e.preventDefault();
 
-    const nombre = document.getElementById("nombre").value.trim();
-    const correo = document.getElementById("correo").value.trim();
-    const mensaje = document.getElementById("mensaje").value.trim();
+    const nombre = $("#nombre").val().trim();
+    const correo = $("#correo").val().trim();
+    const mensaje = $("#mensaje").val().trim();
 
     if (!nombre || !correo || !mensaje) {
         alert("Por favor, completa todos los campos antes de enviar.");
     } else {
         alert("Formulario enviado con éxito. ¡Gracias por contactarnos!");
+        $("#nombre").val("");
+        $("#correo").val("");
+        $("#mensaje").val("");
     }
 });
 
-// Preguntas dinámicas para el test de seguridad
+// Preguntas dinámicas para el test de seguridad (con JavaScript puro)
 const preguntas = [
     {
         pregunta: "¿Qué debes hacer si recibes un correo sospechoso?",
@@ -64,11 +67,10 @@ document.getElementById("modalTest").addEventListener("show.bs.modal", function 
         formTest.appendChild(bloque);
     });
 
-    // Limpiar feedback si se mostró antes
     document.getElementById("feedback").innerHTML = "";
 });
 
-// Verificar respuestas
+// Verificar respuestas del test
 document.getElementById("btnVerificar").addEventListener("click", function () {
     let correctas = 0;
 
