@@ -42,7 +42,6 @@ Gestión del proyecto
 
 -El repositorio fue inicializado con git init
 -Se realizaron múltiples commits con mensajes descriptivos
--Se configuró un archivo .gitignore para excluir archivos innecesarios
 -El código está alojado en GitHub en el siguiente repositorio:
 https://github.com/massielsdc/sitio-ciberseguridad
 
